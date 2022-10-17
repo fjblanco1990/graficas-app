@@ -1,0 +1,10 @@
+<h1>Graficas dobles<h1>
+<hr>
+<div class="row">
+    <div class="col-md-6"> 
+        <app-grafica-barra [dataGrafica]="data" [labelsGrafica]="label" [horizontal]="true" [mostrarLegends]="true"  [responsive]="true" [scales]="scalesHorizontal"></app-grafica-barra>
+    </div>
+    <div class="col-md-6">
+        <app-grafica-barra [dataGrafica]="data" [labelsGrafica]="label" [mostrarLegends]="true" [responsive]="true"  [scales]="scalesVertical"></app-grafica-barra>
+    </div>
+</div>
